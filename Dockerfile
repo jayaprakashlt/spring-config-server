@@ -6,4 +6,4 @@ WORKDIR /usr/app/
 
 EXPOSE 8888
 
-ENTRYPOINT [ "java", "-jar", "app.jar" ]
+ENTRYPOINT [ "java", "-jar", "config.jar" ]
