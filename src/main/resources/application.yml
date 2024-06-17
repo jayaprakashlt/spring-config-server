@@ -7,7 +7,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/j-jayaprakash/config.git
+          uri: https://github.com/jayaprakashlt/config-files.git
           timeout: 5
           force-pull: true
           cloneOnStart: true
