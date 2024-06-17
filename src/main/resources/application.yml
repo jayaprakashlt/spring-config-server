@@ -8,6 +8,7 @@ spring:
       server:
         git:
           uri: https://github.com/jayaprakashlt/config-files.git
+          default-label: master
           timeout: 5
           force-pull: true
           cloneOnStart: true
