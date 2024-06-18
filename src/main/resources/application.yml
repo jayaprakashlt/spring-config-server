@@ -34,3 +34,14 @@ management:
         include: 
           - '*'
           - bus-refresh
+          
+          
+  health:
+    livenessState:
+      enabled: true
+    readinessState:
+      enabled: true
+  endpoint:
+    health:
+      probes:
+        enabled: true
